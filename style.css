@@ -377,12 +377,28 @@ table {
 }
 
 .icon-arrow-left {
+  opacity: 0.1;
   position: absolute;
   top: 50%;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+.icon-arrow-left:hover {
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .icon-arrow-right {
+  opacity: 0.1;
   position: absolute;
   right: 0;
   top: 50%;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+.icon-arrow-right:hover {
+  font-size: 30px;
+  opacity: 0.8;
+  cursor: pointer;
 }

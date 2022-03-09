@@ -245,6 +245,7 @@ justify-content: space-between;
 }
 .article__content {
     padding: 10px;
+    
 }
 .article__title {
     font-family: Heebo;
@@ -305,12 +306,28 @@ justify-content: space-between;
     .footer__copyright {
     }
     .icon-arrow-left {
+        opacity: .1;
         position: absolute;
-        top:50%
+        top:50%;
+        transition:  font-size 0.5s;
+        &:hover{
+            font-size: 30px;
+            
+            cursor: pointer;
+            opacity: .8;
+        }
     }
     .icon-arrow-right {
+        opacity: .1;
         position: absolute;
         right: 0;
-        top:50%
+        top:50%;
+        transition:  font-size 0.5s;
+        &:hover{
+
+            font-size: 30px;
+            opacity: .8;
+            cursor: pointer;
+        }
     }
     // line-height: 29px;
